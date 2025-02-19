@@ -1,0 +1,137 @@
+body {
+    background: linear-gradient(135deg, #ff9a8b, #fecfef);
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 10px;
+    justify-content: center;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item1 {
+    flex: 1 1 300px;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #ad6b6b;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #feb47b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #ff7e5f;
+}
+
+input, select {
+    margin-top: 20px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+label {
+    font-size: 18px;
+}
+
+#x {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+label {
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.terms-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .item {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item1 {
+        width: 80%;
+    }
+
+    #x {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
